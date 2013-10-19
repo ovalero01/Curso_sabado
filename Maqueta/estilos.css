@@ -96,7 +96,7 @@ header {
 /* line 35, ../sass/estilos.scss */
 #logo {
   background: #000;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
   text-align: center;
 }
@@ -104,6 +104,9 @@ header {
 /* line 42, ../sass/estilos.scss */
 nav {
   background-image: -webkit-linear-gradient(bottom, #660000 0%, #ff0011 81%);
+  background-image: -moz-linear-gradient(bottom, #660000 0%, #ff0011 81%);
+  background-image: -o-linear-gradient(bottom, #660000 0%, #ff0011 81%);
+  background-image: -ms-linear-gradient(bottom, #660000 0%, #ff0011 81%);
   height: 50px;
   overflow: hidden;
 }
@@ -141,7 +144,7 @@ nav ul li a:hover {
 /* line 69, ../sass/estilos.scss */
 #slider ul li {
   margin: 0 auto;
-  width: 960px;
+  width: 840px;
 }
 /* line 72, ../sass/estilos.scss */
 #slider ul li h3 {
@@ -165,7 +168,7 @@ nav ul li a:hover {
 #slider ul li .caption {
   background: #999;
   display: inline-block;
-  height: 310px;
+  height: 319px;
   margin-left: -5px;
   padding: 10px;
   overflow: hidden;
@@ -222,14 +225,14 @@ nav ul li a:hover {
 /* line 136, ../sass/estilos.scss */
 #contenido #cont article h2 {
   font-size: 1.1em;
+  background: #0778d8;
 }
 /* line 139, ../sass/estilos.scss */
 #contenido #cont article small {
-  color: red;
+  color: blue;
 }
 /* line 143, ../sass/estilos.scss */
 #contenido aside {
-  background: #0778d8;
   border-radius: 5px;
   display: inline-block;
   margin-left: 10px;
